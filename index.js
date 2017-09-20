@@ -7,7 +7,7 @@ const chalk = require('chalk');
 const imagemin = require('imagemin');
 const plur = require('plur');
 
-const defaultPlugins = ['gifsicle', 'jpegtran', 'optipng', 'svgo'];
+const defaultPlugins = [];
 
 const loadPlugin = (plugin, args) => {
 	try {
