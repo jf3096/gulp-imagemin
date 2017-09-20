@@ -2,6 +2,9 @@
 
 > Minify PNG, JPEG, GIF and SVG images with [imagemin](https://github.com/imagemin/imagemin)
 
+**This fork version is mainly used to remove unuse optional dependency so as to fasten install speed**
+
+
 *Issues with the output should be reported on the imagemin [issue tracker](https://github.com/imagemin/imagemin/issues).*
 
 ---
@@ -33,7 +36,7 @@ gulp.task('default', () =>
 );
 ```
 
-### Custom plugin options
+### Custom plugin options (require optional deps: ref: [origin-gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin))
 
 ```js
 …
